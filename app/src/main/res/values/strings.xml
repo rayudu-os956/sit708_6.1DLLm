@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LLMExample</string>
+    <string name="answered_by_ai">Answered by AI</string>
+    <string name="continue_button">Continue</string>
+    <string name="loading_quiz">Loading quiz…</string>
+    <string name="loading_answer">Loading answer…</string>
+    <string name="submit_quiz">Submit Quiz</string>
+</resources>

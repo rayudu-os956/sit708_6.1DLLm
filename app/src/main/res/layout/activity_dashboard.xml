@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CCFF"
+    android:padding="24dp">
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:text="Hello, User"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/taskBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generated Task 1"
+        android:layout_below="@id/greeting"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00CC66"/>
+</RelativeLayout>
