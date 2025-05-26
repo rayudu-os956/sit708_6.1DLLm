@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnStarter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starter - Purchase" />
+
+    <Button
+        android:id="@+id/btnIntermediate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intermediate - Purchase"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnAdvanced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced - Purchase"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
